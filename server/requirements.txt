@@ -1,0 +1,12 @@
+langchain
+python-dotenv
+ipykernel
+langchain_community
+pypdf
+langchain-groq
+fastapi
+uvicorn
+langchain_groq
+openai
+google-generativeai
+LanguageServiceClient
