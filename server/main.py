@@ -23,7 +23,7 @@ UPLOAD_DIR = "uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
 # Initialize Gemini AI client (replace with your actual API key)
-genai.configure(api_key="AIzaSyAPMPD0yjAdvJCb7jy-VWhKysVn8ZqZjtk")  # Replace with your actual Gemini API key
+genai.configure(api_key="your_api_key")  # Replace with your actual Gemini API key
 
 # Function to extract text from PDF using PyPDFLoader
 def extract_text_from_pdf(pdf_path):
