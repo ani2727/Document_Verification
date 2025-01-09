@@ -24,7 +24,7 @@ UPLOAD_DIR = "uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
 # Initialize Gemini AI client (replace with your actual API key)
-genai.configure(api_key="AIzaSyAPMPD0yjAdvJCb7jy-VWhKysVn8ZqZjtk")  # Replace with actual API key
+genai.configure(api_key="your_api_key")  # Replace with actual API key
 
 @app.post("/submit")
 async def submit_application(
